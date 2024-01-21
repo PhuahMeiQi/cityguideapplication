@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Melaka_History">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Melaka History"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_pre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:text="Sultanate of Malacca"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_preContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/gradient"
+            android:lineSpacingExtra="8sp"
+            android:text="Before the arrival of the first Sultan, Malacca was a fishing village inhabited by local inhabitants known as Orang Laut. Malacca was founded by Parameswara, also known as Iskandar Shah. He found his way to Malacca around 1402 where he found a good port—it was accessible in all seasons and on the strategically located narrowest point of the Malacca Straits.
+            \n\nIn 1403, the first official Chinese trade envoy led by Admiral Yin Qing arrived in Malacca. Later, Parameśwara was escorted by Zheng He and other envoys in his successful visits. Malacca's relationships with Ming China granted it protection from attacks by Siam and Majapahit. Malacca officially submitted to Ming China as a protectorate. This encouraged the development
+             of Malacca into a major trade settlement on the trade route between China and India, Middle East, Africa and Europe.\n\nAccording to a popular legend, Parameswara was resting under a tree near a river during a hunt, when one of his dogs cornered a mouse deer. In self-defence, the mouse deer pushed the dog into the river. Impressed by the courage of the deer, and taking it as a propitious omen of the weak overcoming the powerful, Parameswara decided then and there to found an empire on that very spot. He named it 'Malacca' after the tree where he had just taken shelter at, the Malacca tree (Malay: Pokok Melaka)."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_early"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:text="Early History"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_earlyContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/gradient"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="8sp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_founding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:text="Founding of Melaka"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_foundContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:lineSpacingExtra="8sp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center|center_horizontal"
+            android:text="back" />
+
+    </LinearLayout>
+</ScrollView>

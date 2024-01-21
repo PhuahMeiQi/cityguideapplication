@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Penang_Forum_Read"></activity>
+        <activity android:name=".Penang_Forum_Write" />
+        <activity android:name=".Penang_Things" />
+        <activity android:name=".Melaka_Things" />
+        <activity android:name=".Culture_Penang" />
+        <activity android:name=".Culture_Melaka" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".Map_Activity" />
+        <activity android:name=".Forum_Activity" />
+        <activity android:name=".Compass_Activity" />
+        <activity android:name=".Weather_Activity" />
+        <activity
+            android:name=".Melaka_Hotel"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Melaka_Cuisine"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Custom_Melaka_Popular" />
+        <activity
+            android:name=".Melaka_Popular"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Melaka_History" />
+        <activity
+            android:name=".Penang_Hotel"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Penang_Cuisine"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Penang_Popular"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Penang_History" />
+        <activity android:name=".Custom_Penang_Popular" />
+        <activity android:name=".Melaka_Main" />
+        <activity
+            android:name=".Penang_Main"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Penang_History">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penang History"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_pre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:text="Pre-History"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_preContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/gradient"
+            android:lineSpacingExtra="8sp"
+            android:text="Human remains, dating back to about 5,000 to 6,000 years ago, have been uncovered in Seberang Perai, along with seashells, pottery and hunting tools. These artifacts indicate that the earliest inhabitants of Penang were nomadic Melanesians during the Neolithic era."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_early"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:text="Early History"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_earlyContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:background="@drawable/gradient"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="8sp"
+            android:text="The Cherok Tok Kun megalith in Bukit Mertajam, uncovered in 1845, contains Pali inscriptions, indicating that the Hindu-Buddhist Bujang Valley civilisation based in what is now Kedah had established control over parts of Seberang Perai by the 6th century. The entirety of what is now Penang would later become part of the Sultanate of Kedah up to the late 18th century."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_founding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:text="Founding of Penang"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_foundContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:lineSpacingExtra="8sp"
+            android:text="However, the modern history of Penang only began in the late 18th century. In the 1770s, Francis Light was instructed by the British East India Company to form trade relations in the Malay Peninsular. Light subsequently landed in Kedah, which was by then a Siamese vassal state. Aware that the Sultanate was under external and internal threats, he promised British military protection to the then Sultan of Kedah, Sultan Muhammad Jiwa Zainal Adilin II; in return, the Sultan offered Penang Island to the British. \n\nIt was only in 1786 when the British East India Company finally ordered Light to obtain the island from Kedah.Light negotiated with the new Sultan of Kedah, Sultan Abdullah Mukarram Shah, regarding the cession of the island to the British East India Company in exchange for British military aid.After an agreement between Light and the Sultan was ratified, Light and his entourage sailed on to Penang Island, where they arrived on 17 July 1786.Light took formal possession of the island on 11 August in the name of His Britannic Majesty, King George III and the Honourable East India Company. Penang Island was renamed the Prince of Wales Island after the heir to the British throne, while the new settlement of George Town was established in honour of King George III. \n\nUnbeknownst to Sultan Abdullah, Light had been acting without the authority or the consent of his superiors in India.When Light reneged on his promise of military protection, the Kedah Sultan launched an attempt to recapture the Prince of Wales Island in 1791; the British East India Company subsequently defeated the Kedah forces.The Sultan sued for peace and an annual payment of 6000 Spanish dollars to the Sultan was agreed. \n\nIn 1800, Lieutenant-Governor Sir George Leith secured a strip of hinterland across the Penang Strait and named it Province Wellesley (now Seberang Perai).Province Wellesley was then gradually expanded up to its present-day boundaries in 1874.In exchange for the acquisition, the annual payment to the Sultan of Kedah was increased to 10,000 Spanish dollars per annum. To this day, the Malaysian federal government still pays Kedah, on behalf of Penang, RM 10,000 annually as a symbolic gesture."
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center|center_horizontal"
+            android:text="back" />
+
+    </LinearLayout>
+</ScrollView>

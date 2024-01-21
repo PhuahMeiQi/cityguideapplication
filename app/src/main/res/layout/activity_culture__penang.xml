@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Culture_Penang">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penang Culture"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:background="@drawable/gradient"
+        android:lineSpacingExtra="8sp"
+        android:text="While much of Malaysia draws its culture from its largely Muslim Malay inhabitants, Penang is a melting pot of people and culture: Indian, Chinese, Malay, and some remnants of English colonialism. This diversity produces a city that feels very new and Western, while preserving the Eastern cultures of the people who originally turned it into a trading center."
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+</LinearLayout>

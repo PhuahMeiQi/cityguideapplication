@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Culture_Melaka">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Melaka Culture"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:background="@drawable/gradient"
+        android:lineSpacingExtra="8sp"
+        android:text="While Malacca has a multi-racial population of Malays, Chinese and Indians reflecting the overall racial make-up of Malaysia, it is the Peranakan and Portuguese culture that is still practised by a few descendant communities that attracts visitors.  The Peranakan and Portuguese descendants in Malacca today are the result of the state's long history with trading and colonisation by Oriental and Western powers."
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:typeface="normal" />
+
+</LinearLayout>

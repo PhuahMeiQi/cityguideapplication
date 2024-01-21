@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="417dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Select City"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_penang"
+        android:layout_width="319dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"
+        app:srcCompat="@mipmap/penang" />
+
+    <ImageButton
+        android:id="@+id/btn_melaka"
+        android:layout_width="315dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_penang"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_penang"
+        app:layout_constraintTop_toBottomOf="@+id/btn_penang"
+        app:layout_constraintVertical_bias="0.157"
+        app:srcCompat="@mipmap/melaka" />
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_melaka"
+        app:layout_constraintStart_toStartOf="@+id/btn_melaka"
+        app:layout_constraintTop_toBottomOf="@+id/btn_melaka">
+
+        <ImageButton
+            android:id="@+id/btn_compass"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/compass_logo" />
+
+        <ImageButton
+            android:id="@+id/btn_map"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/map_logo" />
+
+        <ImageButton
+            android:id="@+id/btn_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/weather_logo" />
+
+        <ImageButton
+            android:id="@+id/btn_comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="8dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/logo_comment" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
